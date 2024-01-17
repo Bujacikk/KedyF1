@@ -1,0 +1,87 @@
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background: white;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections{
+    //border-style: solid;
+    color: white;
+    width: 90%;
+}
+
+.team2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.teams{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team{
+    display: flex;
+    width: 400px;
+    height: 175px;
+    cursor: pointer;
+}
+
+.teamL{
+    display: flex;
+    width: 200px;
+    height: 175px;
+    background-color: black;
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamR{
+    display: flex;
+    width: 200px;
+    height: 175px;
+    background-color: #001A53;
+    border-radius: 0px 15px 15px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    max-height: 80%;
+    max-width: 90%; 
+}
+
+.date{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #00A0DE;
+}
+
+.countdown{
+    width: 400px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
